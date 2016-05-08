@@ -7,9 +7,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "outDir": "app",
+    "rootDir": "app"
   },
   "exclude": [
+    "jspm_packages",
     "node_modules",
     "typings/main",
     "typings/main.d.ts"

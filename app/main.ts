@@ -1,3 +1,5 @@
-import {button} from './imp';
-
-console.log(button);
+window.addEventListener('click', () => {
+   System.import('./app/imp').then(({button}) => {
+        console.log(button);
+   });
+});
