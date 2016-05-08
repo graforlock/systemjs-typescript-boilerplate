@@ -21,6 +21,7 @@ System.config({
     }
   },
   map: {
+    "jquery": "//code.jquery.com/jquery-2.2.3.min.js",
     "rxjs": "./node_modules/rxjs/bundles/Rx.umd.js",
     "ts": "github:frankwallis/plugin-typescript@4.0.9",
     "ts-runtime": "npm:babel-runtime@5.8.38",

@@ -1,7 +1,7 @@
-import rxjs from 'rxjs';
+import $ from 'jquery';
 
-window.addEventListener('click', () => {
-   System.import('./app/imp').then(({button}) => {
-        console.log(button);
+$(window).on('click', () => {
+   System.import('rxjs').then(({Observable}) => {
+        console.log(Observable);
    });
 });
