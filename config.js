@@ -12,7 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-
   packages: {
     "/": {
       "defaultExtension": "js",
@@ -21,7 +20,6 @@ System.config({
       }
     }
   },
-
   map: {
     "rxjs": "./node_modules/rxjs/bundles/Rx.umd.js",
     "ts": "github:frankwallis/plugin-typescript@4.0.9",
